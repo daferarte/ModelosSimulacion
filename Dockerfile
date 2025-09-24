@@ -1,5 +1,5 @@
 # Usamos la imagen de eclipse temurin ya que tiene java y maven
-FROM maven:3.9.11-eclipse-temurin-17
+FROM maven:3.9.9-eclipse-temurin-21
 
 # Directorio de trabajo
 WORKDIR /app
